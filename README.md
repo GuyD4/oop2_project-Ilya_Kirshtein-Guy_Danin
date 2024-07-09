@@ -98,7 +98,7 @@ The AI utilizes the Minimax algorithm with alpha-beta pruning for decision makin
 - `std::stack<statePtr> m_stateStack`: Uses shared pointers for efficient state management.
 
 ### NBoard:
-- Role: Efficiently manages chess engine operations.
+- Role: Efficiently manages chess engine operations using bitwise.
 
 ## Algorithms:
 ### Minimax Algorithm with Alpha-Beta Pruning:
@@ -116,6 +116,7 @@ The project design incorporates several design patterns:
 - State Pattern: Manages different game states.
 - Factory Pattern: Creates instances of game components.
 - Observer Pattern: Allows multiple objects to react to game events.
+- UML diagram attached.
 
 ## Remarks:
 This project demonstrates advanced OOP principles and design patterns in game development, with integration of AI algorithms.
